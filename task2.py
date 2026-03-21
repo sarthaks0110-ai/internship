@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # ---------------- CONFIG ----------------
-API_KEY = "aeaedc6a7f42ec5ef71a1d8f538abbc1"  # Replace this
+API_KEY = "Your_API_here"  # Replace this
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 # ---------------- FUNCTION ----------------
@@ -58,4 +58,4 @@ if st.button("Get Weather"):
 
 # ---------------- FOOTER ----------------
 st.markdown("---")
-st.caption("Built with ❤️ using Streamlit")
+st.caption("Built with using Streamlit")
